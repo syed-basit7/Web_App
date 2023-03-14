@@ -1,0 +1,22 @@
+
+
+.step_card{
+    border-radius: 6px !important;
+ }
+
+ .is_active{
+    background-color: #1B87EA;
+    color: white !important;
+ }
+
+ .is_active i{
+    color: white !important;
+ }
+
+ .is_active .text-white  {
+    color: white !important ;
+ }
+
+ .pl-5{
+   padding-left: 45px !important;
+ }

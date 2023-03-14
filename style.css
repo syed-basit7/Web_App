@@ -1,22 +1,37 @@
 
 
 .step_card{
-    border-radius: 6px !important;
+   border-radius: 6px !important;
  }
 
  .is_active{
-    background-color: #1B87EA;
-    color: white !important;
+   background-color: #1B87EA;
+   color: white !important;
  }
 
  .is_active i{
-    color: white !important;
+   color: white !important;
  }
 
  .is_active .text-white  {
-    color: white !important ;
+   color: white !important ;
  }
 
  .pl-5{
    padding-left: 45px !important;
+ }
+
+ .side_steps{
+   position: sticky; top: 50px;
+ }
+
+ .hl_row{
+   background-color: rgb(196, 193, 193) !important;
+ }
+
+ .network_card{
+   transition: 0.2s;
+ }
+ .network_card:hover{
+   background-color: #ebf1f7 !important;
  }

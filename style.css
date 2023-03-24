@@ -35,3 +35,8 @@
  .network_card:hover{
    background-color: #ebf1f7 !important;
  }
+
+ .spinner-border{
+  height: 60px !important;
+  width: 60px !important;
+}

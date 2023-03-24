@@ -27,6 +27,13 @@
       <!-- jquery cdn -->
       <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
+      <style>
+      
+      .spinner-border{
+        display: none;
+      }
+
+      </style>
 
    </head>
    <body>
@@ -141,7 +148,11 @@
                               <input type="email" name="" class="form-control" id="pass-<?php echo $count_id?>">
                             </div>
                             <div class="col-md-2 ">
-                              <button class="btn btn-primary" onclick="showPass(<?php echo $count_id ?>)">Connect</button>
+                              <button class="btn btn-primary" onclick="showPass(<?php echo $count_id ?>)"> 
+                              <span class="spinner-border spinner-border-sm" id="spinner-border<?php echo $count_id ?>" role="status" aria-hidden="true"></span>
+                              <span class="visually-hidden">Loading...</span>
+                              Connect
+                            </button>
                             </div> 
                           </div>
                           <!-- show password -->
@@ -164,7 +175,6 @@
 
                </div>
            </div>
-
          </div>
        </div>
       
